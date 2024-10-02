@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+      <a class="navbar-brand bg-light" href="#"><img class="w-50" src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active p-4" aria-current="page" href="#landing">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="#">Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="#">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="#">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="#">Signin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="#">Signup</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Landing Page-->
+  <div id="landing">
+    <div class="row">
+      <div class="col-4  "><img class=" w-100 d-xs-none d-sm-block rounded-3 "
+          src="https://static.zara.net/assets/public/4529/1ca4/df8646d4b785/e452bd0006dd/05679254700-a1/05679254700-a1.jpg?ts=1724406985022&w=607&f=auto"
+          alt=""></div>
+      <div class="col-4 position-relative">
+        <div class="row">
+          <img class="rounded-4  gy-4 "
+            src="https://images.pexels.com/photos/9775856/pexels-photo-9775856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="">
+        </div>
+        <!-- <div class="row ">
+                    <h1 class="text-center position-absolute top-50">New Collections</h1>
+                </div> -->
+        <div class="row">
+          <img class=" rounded-4 gy-4 p-2"
+            src="https://images.pexels.com/photos/9255730/pexels-photo-9255730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="">
+        </div>
+      </div>
+
+      <div class="col-4 "><img class="d-xs-none w-100  rounded-3"
+          src="https://static.zara.net/assets/public/c34e/38dc/e64b41ee8375/12f035daa534/06645937250-a1/06645937250-a1.jpg?ts=1727084049734&w=750&f=auto"
+          alt=""></div>
+    </div>
+    <!-- logos -->
+    <div class="row text-center border border-dark p-2">
+      <div class="col fs-1"><img class="w-25"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Chanel_logo_interlocking_cs.svg/1280px-Chanel_logo_interlocking_cs.svg.png"
+          alt=""></div>
+      <div class="col fs-1"><img class="w-25"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt=""></div>
+      <div class="col fs-1"><img class="w-50"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Prada-Logo.svg/1280px-Prada-Logo.svg.png"
+          alt=""></div>
+      <div class="col fs-1"><img class="w-50" src="https://www.cdnlogo.com/logos/d/36/denim.svg" alt=""></div>
+      <div class="col fs-1"><img class="w-50"
+          src="https://www.bengaluru.lulumall.in/wp-content/uploads/2024/06/Calvin-Klein-logo.png" alt=""></div>
+    </div>
+  </div>
+  <!-- Deals -->
+  <div class="deals">
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active ">
+          <img src="./images/pexels-cottonbro-7621778.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="fw-bold">Jackets | Gillets</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pexels-cottonbro-7653718.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="fw-bold">Coats | Turtlenecks</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pexels-cottonbro-7871156.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="fw-bold">Women's Fashion</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+  <!-- logos -->
+  <div class="row text-center border border-dark p-2">
+    <div class="col fs-1"><img class="w-25"
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Chanel_logo_interlocking_cs.svg/1280px-Chanel_logo_interlocking_cs.svg.png"
+        alt=""></div>
+
+    <div class="col fs-1"><img class="w-50"
+        src="https://www.bengaluru.lulumall.in/wp-content/uploads/2024/06/Calvin-Klein-logo.png" alt=""></div>
+    <div class="col fs-1"><img class="w-50"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Prada-Logo.svg/1280px-Prada-Logo.svg.png" alt="">
+    </div>
+    <div class="col fs-1"><img class="w-50" src="https://www.cdnlogo.com/logos/d/36/denim.svg" alt=""></div>
+    <div class="col fs-1"><img class="w-25"
+        src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt=""></div>
+
+  </div>
+  <!-- cards -->
+  <div class="cards">
+    <h1 class="text-center mt-5">Edition StreetCasts</h1>
+    <div class="d-flex justify-content-evenly  mt-2 mb-4 row row-cols-1 row-cols-md-3 g-4 ">
+
+      <div class="card border-0 " style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/7b99/a844/3d044b46b2f8/58f15d754ce1/06409544800-200-p/06409544800-200-p.jpg?ts=1727171470342&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">CONTRAST PYJAMA SHIRT</h5>
+          <p class="card-text fw-light">Relaxed fit pyjama shirt. Featuring a camp collar, long sleeves finished with
+            contrast piping detail on the cuffs, a chest patch </p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/0f1b/84a9/0caa48c3bc40/9d2bc2c300e5/05588250403-p/05588250403-p.jpg?ts=1727084051520&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit collared shirt made of cotton poplin. Long sleeves with buttoned
+            cuffs. Chest patch pocket. Button-up front</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/d78c/0d51/ec99412cba60/531873857a7b/02632315724-p/02632315724-p.jpg?ts=1727084317236&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit knitted polo shirt in merino wool yarn. Features a lapel collar, a
+            front button fastening, long sleeves and ribbed trims.</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/0f1b/84a9/0caa48c3bc40/9d2bc2c300e5/05588250403-p/05588250403-p.jpg?ts=1727084051520&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit collared shirt made of cotton poplin. Long sleeves with buttoned
+            cuffs. Chest patch pocket. Button-up front</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem; ">
+        <img
+          src="https://static.zara.net/assets/public/4c03/fc84/1d9d497ab984/4fc40619718d/06674312427-p/06674312427-p.jpg?ts=1720450758197&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body  text-center">
+          <h5 class="card-title">COTTON - HEMP SWEATER</h5>
+          <p class="card-text fw-light">Lightweight sweater made of a spun cotton blend and 10% hemp. Featuring a round
+            neck and long sleeves. Ribbed trims.</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+
+        </div>
+      </div>
+      <div class="card border-0 " style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/869d/1755/205e4f0fa964/be2430bbc691/08281411700-p/08281411700-p.jpg?ts=1727351114397&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">CONTRAST PYJAMA SHIRT</h5>
+          <p class="card-text fw-light">Relaxed fit pyjama shirt. Featuring a camp collar, long sleeves finished with
+            contrast piping detail on the cuffs, a chest patch </p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/0f1b/84a9/0caa48c3bc40/9d2bc2c300e5/05588250403-p/05588250403-p.jpg?ts=1727084051520&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit collared shirt made of cotton poplin. Long sleeves with buttoned
+            cuffs. Chest patch pocket. Button-up front</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/2a86/677f/c1664af182cf/ad79de05ce33/09598356681-p/09598356681-p.jpg?ts=1725614488234&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit collared shirt made of cotton poplin. Long sleeves with buttoned
+            cuffs. Chest patch pocket. Button-up front</p>
+          <div class="cart fs-3 ">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem;">
+        <img
+          src="https://static.zara.net/assets/public/d78c/0d51/ec99412cba60/531873857a7b/02632315724-p/02632315724-p.jpg?ts=1727084317236&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">MERINO WOOL KNIT POLO</h5>
+          <p class="card-text fw-light">Regular fit knitted polo shirt in merino wool yarn. Features a lapel collar, a
+            front button fastening, long sleeves and ribbed trims.</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem; ">
+        <img
+          src="https://static.zara.net/assets/public/4c03/fc84/1d9d497ab984/4fc40619718d/06674312427-p/06674312427-p.jpg?ts=1720450758197&w=750&f=auto"
+          class="card-img-top p-3" alt="...">
+        <div class="card-body  text-center">
+          <h5 class="card-title">COTTON - HEMP SWEATER</h5>
+          <p class="card-text fw-light">Lightweight sweater made of a spun cotton blend and 10% hemp. Featuring a round
+            neck and long sleeves. Ribbed trims.</p>
+          <div class="cart fs-3">&#8722; <a href="#" class="btn btn-dark">Add to Cart</a> &#43;</div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- Banner -->
+  <div class="position-relative">
+    <div class="row g-0 hover-effect">
+      <div class="col-3">
+        <img class="img-fluid h-100" src="https://i.pinimg.com/564x/29/89/10/2989105fa64a873307b6b341752e94cb.jpg"
+          alt="">
+      </div>
+      <div class="col-3">
+        <img class="img-fluid h-100" src="https://i.pinimg.com/564x/81/23/a1/8123a1c33e37b51ff310ec3c6f0f220f.jpg"
+          alt="">
+      </div>
+      <div class="col-3">
+        <img class="img-fluid h-100" src="https://i.pinimg.com/564x/08/1b/04/081b04397200add8863787493c09009b.jpg"
+          alt="">
+      </div>
+      <div class="col-3">
+        <img class="img-fluid h-100" src="https://i.pinimg.com/564x/10/af/90/10af90c3d638864fd1eaad86561e89fb.jpg"
+          alt="">
+      </div>
+    </div>
+
+    <!-- Overlay text -->
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white text-shadow">
+      <span class="d-block fs-2 fw-thin">NEW IN<br></span>
+      <h1 class="fs-1">EVERYDAY STYLES</h1>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="parentfooter">
+      <div class="child">
+        <img src="./images/logo.png" alt="No Image"><br><br>
+        <p>Praesent nec nisl a purus blandit viverra. Pellentesque habitant morbi tristique senectuse. </p>
+      </div>
+      <div class="child">
+        <h2>Info</h2><br>
+        <a>Custom Service</a><br>
+        <a>F.A.Q's</a><br>
+        <a>Order Tracking</a><br>
+        <a>Contact Us</a><br>
+        <a>Events</a><br>
+        <a>Popular</a><br>
+      </div>
+      <div class="child">
+        <h2>Services</h2><br>
+        <a>Sitemap</a><br>
+        <a>Privacy Policy</a><br>
+        <a>Your Account</a><br>
+        <a>Advanced Search</a><br>
+        <a>Terms and Conditions</a><br>
+        <a>Contact Us</a><br>
+      </div>
+      <div class="child">
+        <h2>Account</h2><br>
+        <a>About Us</a><br>
+        <a>Delivery Information</a><br>
+        <a>Privacy Policy</a><br>
+        <a>Discount</a><br>
+        <a>Customer Service</a><br>
+        <a>Terms and Conditions</a><br>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
